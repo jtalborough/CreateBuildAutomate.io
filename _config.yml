@@ -30,7 +30,7 @@ twitter_username: jtalborough
 github_username:  jtalborough
 
 # Build settings
-theme: Particle
+remote_theme: broccolini/swiss
 plugins:
   - jekyll-feed
 
