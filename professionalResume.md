@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Resume"
-permalink: /professionalResume.md
+permalink: /Resume/
 ---
 # Stuff about me 
 ## header 2
