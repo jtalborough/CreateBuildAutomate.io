@@ -17,7 +17,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-repository: jtalborough/CreateBuildAutomate.io
+
+#repository: jtalborough/CreateBuildAutomate.io
+
 title: Design Build Automate [DBA]
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -29,18 +31,17 @@ url: "" # the base hostname & protocol for your site, e.g. http://exa ple.com
 twitter_username: jtalborough
 github_username:  jtalborough
 
+notion:
+  databases:
+    - id: 3a81eac13aa64e3c90041b1f25c57d9d
+
 # Build settings
-theme: jekyll-swiss
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-notion
 
-collections:
-  - quotes
 
-notion:
-  databases:
-    - id: c3092baff5e04081b2cfc8fedc14c2f1
 
 # Exclude from processing.
 # The following items will not be processed, by default.

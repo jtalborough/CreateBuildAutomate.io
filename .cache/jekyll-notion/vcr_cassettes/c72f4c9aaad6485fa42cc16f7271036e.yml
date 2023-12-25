@@ -1,0 +1,251 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.notion.com/v1/pages/c72f4c9aaad6485fa42cc16f7271036e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Notion Ruby Client/1.2.2
+      Authorization:
+      - Bearer <NOTION_TOKEN>
+      Notion-Version:
+      - '2022-02-22'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Mon, 25 Dec 2023 19:34:40 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      x-powered-by:
+      - Express
+      x-notion-request-id:
+      - 8a719da7-61b0-42d1-8317-4b60350c5766
+      etag:
+      - W/"24d-Ye02XtUR+rLvxJkENDjHyCucIT4"
+      vary:
+      - Accept-Encoding
+      cf-cache-status:
+      - DYNAMIC
+      set-cookie:
+      - __cf_bm=xzWkAIWIHGD3fs5VqSPe7hmJs1aptasiM6OYJ2YnC.4-1703532880-1-ASAaE2gh39F1qRzL304lV+aqvjg9Kep9h1QOFgvahPTuvEHVlEG49UqSgqsHB6pJlmuOmn0UOOzy+ew9eX9QEoY=;
+        path=/; expires=Mon, 25-Dec-23 20:04:40 GMT; domain=.notion.com; HttpOnly;
+        Secure; SameSite=None
+      server:
+      - cloudflare
+      cf-ray:
+      - 83b385d87dae05e2-IAD
+      content-encoding:
+      - gzip
+    body:
+      encoding: UTF-8
+      string: '{"object":"page","id":"c72f4c9a-aad6-485f-a42c-c16f7271036e","created_time":"2023-10-22T20:15:00.000Z","last_edited_time":"2023-12-25T18:52:00.000Z","created_by":{"object":"user","id":"33bd6ca7-2130-4d07-9d49-cb88fa4bdf85"},"last_edited_by":{"object":"user","id":"33bd6ca7-2130-4d07-9d49-cb88fa4bdf85"},"cover":null,"icon":null,"parent":{"type":"workspace","workspace":true},"archived":false,"properties":{"title":{"id":"title","type":"title","title":[]}},"url":"https://www.notion.so/c72f4c9aaad6485fa42cc16f7271036e","public_url":null,"request_id":"8a719da7-61b0-42d1-8317-4b60350c5766"}'
+  recorded_at: Mon, 25 Dec 2023 19:34:40 GMT
+- request:
+    method: get
+    uri: https://api.notion.com/v1/blocks/c72f4c9aaad6485fa42cc16f7271036e/children
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Notion Ruby Client/1.2.2
+      Authorization:
+      - Bearer <NOTION_TOKEN>
+      Notion-Version:
+      - '2022-02-22'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Mon, 25 Dec 2023 19:34:40 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      x-powered-by:
+      - Express
+      x-notion-request-id:
+      - aeaca75e-f559-4bd0-a0c0-33611f0f96c4
+      etag:
+      - W/"b05-hkmNxGFdMQ9PMAK7ChMWWdYzQEw"
+      vary:
+      - Accept-Encoding
+      content-encoding:
+      - gzip
+      cf-cache-status:
+      - DYNAMIC
+      set-cookie:
+      - __cf_bm=5pry9D_W_9kwvVbVW0Jnr8bSnvdGyaeJuxkl4OgOwMw-1703532880-1-AanXy8XLzN19+LxLBUDyGAfjppQ85i+9k61nCpuLr91d1uLq492GF5idEFkdqlPGazo49O+wmGjrOn3rSgIxtD8=;
+        path=/; expires=Mon, 25-Dec-23 20:04:40 GMT; domain=.notion.com; HttpOnly;
+        Secure; SameSite=None
+      server:
+      - cloudflare
+      cf-ray:
+      - 83b385d958309c16-IAD
+    body:
+      encoding: UTF-8
+      string: '{"object":"list","results":[{"object":"block","id":"14589a42-07de-450c-971e-a50780dd2144","parent":{"type":"page_id","page_id":"c72f4c9a-aad6-485f-a42c-c16f7271036e"},"created_time":"2023-10-22T20:17:00.000Z","last_edited_time":"2023-10-22T20:17:00.000Z","created_by":{"object":"user","id":"33bd6ca7-2130-4d07-9d49-cb88fa4bdf85"},"last_edited_by":{"object":"user","id":"33bd6ca7-2130-4d07-9d49-cb88fa4bdf85"},"has_children":false,"archived":false,"type":"paragraph","paragraph":{"rich_text":[{"type":"text","text":{"content":"ETFs
+        / STOCKS\nMONEY MARKET FUNDS\nCASH\nSecurity Symbol/CUSIP Shares Share Price
+        Value\niShares J.P. Morgan USD Emerging Markets Bond ETF EMB 54 $82.5200 $4,456.08\niShares
+        iBoxx USD Investment Grade Corporate Bond ETF LQD 105 $102.0200 $10,712.10\nVanguard
+        FTSE Developed Markets ETF VEA 126 $43.7200 $5,508.72\nVanguard REIT Index
+        Fund VNQ 40 $75.6600 $3,026.40\nVanguard Total Stock Market ETF VTI 46 $212.4100
+        $9,770.86\nVanguard FTSE Emerging Markets ETF VWO 44 $39.2100 $1,725.24\nTotal
+        $35,199.40\nSecurity Symbol/CUSIP Shares Share Price Value\nRBC US Government
+        Money Market Fund TIMXX 85.55 $1.0000 $85.55\nTotal $85.55\nJason T Alborough
+        | My IRA | September 1 - 30, 2023\nPage 3 of 10\nCurrency Value\nUS Dollar
+        $0.00\nTotal Holdings $35,284.95","link":null},"annotations":{"bold":false,"italic":false,"strikethrough":false,"underline":false,"code":false,"color":"default"},"plain_text":"ETFs
+        / STOCKS\nMONEY MARKET FUNDS\nCASH\nSecurity Symbol/CUSIP Shares Share Price
+        Value\niShares J.P. Morgan USD Emerging Markets Bond ETF EMB 54 $82.5200 $4,456.08\niShares
+        iBoxx USD Investment Grade Corporate Bond ETF LQD 105 $102.0200 $10,712.10\nVanguard
+        FTSE Developed Markets ETF VEA 126 $43.7200 $5,508.72\nVanguard REIT Index
+        Fund VNQ 40 $75.6600 $3,026.40\nVanguard Total Stock Market ETF VTI 46 $212.4100
+        $9,770.86\nVanguard FTSE Emerging Markets ETF VWO 44 $39.2100 $1,725.24\nTotal
+        $35,199.40\nSecurity Symbol/CUSIP Shares Share Price Value\nRBC US Government
+        Money Market Fund TIMXX 85.55 $1.0000 $85.55\nTotal $85.55\nJason T Alborough
+        | My IRA | September 1 - 30, 2023\nPage 3 of 10\nCurrency Value\nUS Dollar
+        $0.00\nTotal Holdings $35,284.95","href":null}],"color":"default"}},{"object":"block","id":"de3dfe7b-e8c7-4f43-85ca-1f51203be878","parent":{"type":"page_id","page_id":"c72f4c9a-aad6-485f-a42c-c16f7271036e"},"created_time":"2023-10-22T20:17:00.000Z","last_edited_time":"2023-10-22T20:17:00.000Z","created_by":{"object":"user","id":"33bd6ca7-2130-4d07-9d49-cb88fa4bdf85"},"last_edited_by":{"object":"user","id":"33bd6ca7-2130-4d07-9d49-cb88fa4bdf85"},"has_children":false,"archived":false,"type":"paragraph","paragraph":{"rich_text":[],"color":"default"}}],"next_cursor":null,"has_more":false,"type":"block","block":{},"request_id":"aeaca75e-f559-4bd0-a0c0-33611f0f96c4"}'
+  recorded_at: Mon, 25 Dec 2023 19:34:40 GMT
+- request:
+    method: get
+    uri: https://api.notion.com/v1/pages/c72f4c9aaad6485fa42cc16f7271036e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Notion Ruby Client/1.2.2
+      Authorization:
+      - Bearer <NOTION_TOKEN>
+      Notion-Version:
+      - '2022-02-22'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Mon, 25 Dec 2023 19:34:41 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      x-powered-by:
+      - Express
+      x-notion-request-id:
+      - 16974341-16f1-4d1a-9960-ae5853cad2cc
+      etag:
+      - W/"24d-2/UtJiARxc50IuDv7CER9TxYbTk"
+      vary:
+      - Accept-Encoding
+      cf-cache-status:
+      - DYNAMIC
+      set-cookie:
+      - __cf_bm=fFm1unE0Nc4UbL_M9u6mt5BBmx.jES1SZPlej.EyzY0-1703532881-1-AUdkZPHzxCfZG1tBVjpLBQXAlADI8L13nMk3C+MUg47xc92MwEB+vEt7aW1yNqjGwTDgNfyZCOGxem1w0+funmA=;
+        path=/; expires=Mon, 25-Dec-23 20:04:41 GMT; domain=.notion.com; HttpOnly;
+        Secure; SameSite=None
+      server:
+      - cloudflare
+      cf-ray:
+      - 83b385daff9b0813-IAD
+      content-encoding:
+      - gzip
+    body:
+      encoding: UTF-8
+      string: '{"object":"page","id":"c72f4c9a-aad6-485f-a42c-c16f7271036e","created_time":"2023-10-22T20:15:00.000Z","last_edited_time":"2023-12-25T18:52:00.000Z","created_by":{"object":"user","id":"33bd6ca7-2130-4d07-9d49-cb88fa4bdf85"},"last_edited_by":{"object":"user","id":"33bd6ca7-2130-4d07-9d49-cb88fa4bdf85"},"cover":null,"icon":null,"parent":{"type":"workspace","workspace":true},"archived":false,"properties":{"title":{"id":"title","type":"title","title":[]}},"url":"https://www.notion.so/c72f4c9aaad6485fa42cc16f7271036e","public_url":null,"request_id":"16974341-16f1-4d1a-9960-ae5853cad2cc"}'
+  recorded_at: Mon, 25 Dec 2023 19:34:41 GMT
+- request:
+    method: get
+    uri: https://api.notion.com/v1/blocks/c72f4c9aaad6485fa42cc16f7271036e/children
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Notion Ruby Client/1.2.2
+      Authorization:
+      - Bearer <NOTION_TOKEN>
+      Notion-Version:
+      - '2022-02-22'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Mon, 25 Dec 2023 19:34:41 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      x-powered-by:
+      - Express
+      x-notion-request-id:
+      - e0addf51-9285-4541-abc4-16e4587fe56b
+      etag:
+      - W/"b05-2d1NOEp/rFwiSlHE1Mi7tyu82cQ"
+      vary:
+      - Accept-Encoding
+      content-encoding:
+      - gzip
+      cf-cache-status:
+      - DYNAMIC
+      set-cookie:
+      - __cf_bm=hN6uRKD4MghoGv0PcCihIvsXipinpIe.zzznGbiAVvQ-1703532881-1-AT+Y+cQNM+qHxDzbMHjajey8ONe6to4QIerVcPC3mKuCMq+skocGHfA/OTO6hwfKUMZ2IRYGNZx5tVo8jsXE93o=;
+        path=/; expires=Mon, 25-Dec-23 20:04:41 GMT; domain=.notion.com; HttpOnly;
+        Secure; SameSite=None
+      server:
+      - cloudflare
+      cf-ray:
+      - 83b385dbdf0f2076-IAD
+    body:
+      encoding: UTF-8
+      string: '{"object":"list","results":[{"object":"block","id":"14589a42-07de-450c-971e-a50780dd2144","parent":{"type":"page_id","page_id":"c72f4c9a-aad6-485f-a42c-c16f7271036e"},"created_time":"2023-10-22T20:17:00.000Z","last_edited_time":"2023-10-22T20:17:00.000Z","created_by":{"object":"user","id":"33bd6ca7-2130-4d07-9d49-cb88fa4bdf85"},"last_edited_by":{"object":"user","id":"33bd6ca7-2130-4d07-9d49-cb88fa4bdf85"},"has_children":false,"archived":false,"type":"paragraph","paragraph":{"rich_text":[{"type":"text","text":{"content":"ETFs
+        / STOCKS\nMONEY MARKET FUNDS\nCASH\nSecurity Symbol/CUSIP Shares Share Price
+        Value\niShares J.P. Morgan USD Emerging Markets Bond ETF EMB 54 $82.5200 $4,456.08\niShares
+        iBoxx USD Investment Grade Corporate Bond ETF LQD 105 $102.0200 $10,712.10\nVanguard
+        FTSE Developed Markets ETF VEA 126 $43.7200 $5,508.72\nVanguard REIT Index
+        Fund VNQ 40 $75.6600 $3,026.40\nVanguard Total Stock Market ETF VTI 46 $212.4100
+        $9,770.86\nVanguard FTSE Emerging Markets ETF VWO 44 $39.2100 $1,725.24\nTotal
+        $35,199.40\nSecurity Symbol/CUSIP Shares Share Price Value\nRBC US Government
+        Money Market Fund TIMXX 85.55 $1.0000 $85.55\nTotal $85.55\nJason T Alborough
+        | My IRA | September 1 - 30, 2023\nPage 3 of 10\nCurrency Value\nUS Dollar
+        $0.00\nTotal Holdings $35,284.95","link":null},"annotations":{"bold":false,"italic":false,"strikethrough":false,"underline":false,"code":false,"color":"default"},"plain_text":"ETFs
+        / STOCKS\nMONEY MARKET FUNDS\nCASH\nSecurity Symbol/CUSIP Shares Share Price
+        Value\niShares J.P. Morgan USD Emerging Markets Bond ETF EMB 54 $82.5200 $4,456.08\niShares
+        iBoxx USD Investment Grade Corporate Bond ETF LQD 105 $102.0200 $10,712.10\nVanguard
+        FTSE Developed Markets ETF VEA 126 $43.7200 $5,508.72\nVanguard REIT Index
+        Fund VNQ 40 $75.6600 $3,026.40\nVanguard Total Stock Market ETF VTI 46 $212.4100
+        $9,770.86\nVanguard FTSE Emerging Markets ETF VWO 44 $39.2100 $1,725.24\nTotal
+        $35,199.40\nSecurity Symbol/CUSIP Shares Share Price Value\nRBC US Government
+        Money Market Fund TIMXX 85.55 $1.0000 $85.55\nTotal $85.55\nJason T Alborough
+        | My IRA | September 1 - 30, 2023\nPage 3 of 10\nCurrency Value\nUS Dollar
+        $0.00\nTotal Holdings $35,284.95","href":null}],"color":"default"}},{"object":"block","id":"de3dfe7b-e8c7-4f43-85ca-1f51203be878","parent":{"type":"page_id","page_id":"c72f4c9a-aad6-485f-a42c-c16f7271036e"},"created_time":"2023-10-22T20:17:00.000Z","last_edited_time":"2023-10-22T20:17:00.000Z","created_by":{"object":"user","id":"33bd6ca7-2130-4d07-9d49-cb88fa4bdf85"},"last_edited_by":{"object":"user","id":"33bd6ca7-2130-4d07-9d49-cb88fa4bdf85"},"has_children":false,"archived":false,"type":"paragraph","paragraph":{"rich_text":[],"color":"default"}}],"next_cursor":null,"has_more":false,"type":"block","block":{},"request_id":"e0addf51-9285-4541-abc4-16e4587fe56b"}'
+  recorded_at: Mon, 25 Dec 2023 19:34:41 GMT
+recorded_with: VCR 6.2.0
