@@ -25,6 +25,7 @@ GEM
     connection_pool (2.4.1)
     dnsruby (1.70.0)
       simpleidn (~> 0.2.1)
+    dotenv (2.8.1)
     drb (2.2.0)
       ruby2_keywords
     em-websocket (0.5.3)
@@ -301,6 +302,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  dotenv
   github-pages
   http_parser.rb (~> 0.6.0)
   jekyll (~> 3.9.3)
