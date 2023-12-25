@@ -33,6 +33,15 @@ github_username:  jtalborough
 theme: jekyll-swiss
 plugins:
   - jekyll-feed
+  - jekyll-notion
+
+collections:
+  - quotes
+
+notion:
+  databases:
+    - id: c3092baff5e04081b2cfc8fedc14c2f1
+      collection: quotes
 
 # Exclude from processing.
 # The following items will not be processed, by default.
