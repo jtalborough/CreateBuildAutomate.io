@@ -19,6 +19,7 @@ gem 'github-pages', group: :jekyll_plugins
 gem 'webrick'
 gem 'jekyll-notion'
 gem 'dotenv'
+gem 'faraday-retry'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
