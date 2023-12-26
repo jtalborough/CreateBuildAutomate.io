@@ -30,6 +30,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://exa ple.com
 twitter_username: jtalborough
 github_username:  jtalborough
+paginate: 5
 
 collections:
   Quotes:
@@ -42,7 +43,9 @@ notion:
 
 
 # Build settings
-theme: jekyll-swiss
+# theme: jekyll-swiss
+# theme: minimal-mistakes-jekyll
+theme: jekyll-theme-hydeout
 theme_color: yellow
 
 plugins:
